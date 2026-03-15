@@ -4,17 +4,13 @@
 
 </div>
 
-```
-Last login: mass extinction event        from somewhere-in-lithuania
-```
-
 ```sh
 ~$ whoami
 ```
 
 **Paulius Čepovič** — Software Engineer · Lithuania `UTC+2`
 
-A tinkerer who takes ideas from where they thrive and smuggles them across ecosystem borders.
+I move patterns between ecosystems to see what survives the transplant.
 
 ```sh
 ~$ cat /etc/motd
@@ -27,18 +23,8 @@ A tinkerer who takes ideas from where they thrive and smuggles them across ecosy
 │   Systems languages   →  Scripting ecosystems     │
 │   GUI applications    →  Terminal UIs             │
 │                                                   │
-│   The best ideas are stolen across boundaries.    │
-│                                                   │
 └───────────────────────────────────────────────────┘
 ```
-
-```sh
-~$ ls ~/toolkit/
-```
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,go,rust,react,lua,neovim&theme=dark" alt="Tech Stack" />
-</div>
 
 ```sh
 ~$ htop
@@ -69,10 +55,6 @@ A tinkerer who takes ideas from where they thrive and smuggles them across ecosy
 ---
 
 <div align="center">
-
-```sh
-~$ echo "The repos below are where the experiments live. Enter at your own risk."
-```
 
 ![visitors](https://komarev.com/ghpvc/?username=NaiKiDEV&color=38bdf8&style=flat-square&label=terminal+visitors)
 
