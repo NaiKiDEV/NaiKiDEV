@@ -10,9 +10,6 @@
 
 **Paulius Čepovič** — Senior Software Engineer · Lithuania
 
-```
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaiKiDEV&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=6" alt="Top Languages" />
 </div>
-
-```
