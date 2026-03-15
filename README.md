@@ -8,24 +8,11 @@
 ~$ whoami
 ```
 
-**Paulius Čepovič** — Software Engineer · Lithuania `UTC+2`
-
-I move patterns between ecosystems to see what survives the transplant.
+**Paulius Čepovič** — Senior Software Engineer · Lithuania
 
 ```
-Backend patterns  →  Frontend architectures
-Systems languages →  Scripting ecosystems
-GUI applications  →  Terminal UIs
-```
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NaiKiDEV&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&langs_count=6" alt="Top Languages" />
 </div>
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NaiKiDEV/NaiKiDEV/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NaiKiDEV/NaiKiDEV/output/github-snake.svg" />
-    <img alt="contribution snake" src="https://raw.githubusercontent.com/NaiKiDEV/NaiKiDEV/output/github-snake-dark.svg" />
-  </picture>
-</div>
+```
