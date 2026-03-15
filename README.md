@@ -1,5 +1,3 @@
-<div align="center">
-
 ```
 $ neofetch
 ```
@@ -15,5 +13,3 @@ $ neofetch
   │                  │      Based   Lithuania
   ╰──────────────────╯
 </pre>
-
-</div>
