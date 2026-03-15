@@ -3,10 +3,8 @@
     text { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
   </style>
 
-  <!-- Outer background -->
   <rect width="550" height="220" rx="10" fill="#1a1b26"/>
 
-  <!-- Neovim editor box -->
   <rect x="24" y="16" width="185" height="190" rx="8" fill="#1f2335"/>
 
   <!-- Gutter separator -->
@@ -15,7 +13,6 @@
   <!-- Statusline separator -->
   <line x1="24" y1="188" x2="209" y2="188" stroke="#3b4261" stroke-width="1"/>
 
-  <!-- Line numbers -->
   <text font-size="12" fill="#3b4261" text-anchor="end">
     <tspan x="53" y="38">1</tspan>
     <tspan x="53" y="58">2</tspan>
@@ -27,35 +24,26 @@
     <tspan x="53" y="178">~</tspan>
   </text>
 
-  <!-- Binary tree art (xml:space="preserve" to keep spacing) -->
   <text x="101" y="58"  font-size="13" fill="#c0caf5" xml:space="preserve">    ●</text>
   <text x="101" y="78"  font-size="13" fill="#c0caf5" xml:space="preserve">   ╱ ╲</text>
   <text x="101" y="98"  font-size="13" fill="#c0caf5" xml:space="preserve">  ●   ●</text>
   <text x="101" y="118" font-size="13" fill="#c0caf5" xml:space="preserve"> ╱ ╲   </text>
   <text x="101" y="138" font-size="13" fill="#c0caf5" xml:space="preserve">●   ●   ●</text>
 
-  <!-- Cursor replacing the last ╲ on row 4 (position 7, col = 101 + 7*7.8 ≈ 156) -->
-  <rect x="156" y="104" width="8" height="15" rx="1" fill="#9ece6a"/>
+  <rect x="156" y="104" width="8" height="15" rx="1" fill="#7aa2f7"/>
 
-  <!-- Statusline -->
   <text x="28"  y="201" font-size="11" fill="#9ece6a" font-weight="bold">INSERT</text>
   <text x="82"  y="201" font-size="11" fill="#565f89">[No Name]</text>
   <text x="207" y="201" font-size="11" fill="#565f89" text-anchor="end">5:8</text>
 
-  <!-- Box border (drawn on top) -->
   <rect x="24" y="16" width="185" height="190" rx="8" fill="none" stroke="#3b4261" stroke-width="1"/>
 
-  <!-- ==================== INFO PANEL ==================== -->
-
-  <!-- NaiKiDEV@github -->
   <text y="36" font-size="14">
     <tspan x="240" fill="#7aa2f7" font-weight="bold">NaiKiDEV</tspan><tspan fill="#565f89">@</tspan><tspan fill="#7aa2f7" font-weight="bold">github</tspan>
   </text>
 
-  <!-- Separator -->
   <line x1="240" y1="46" x2="370" y2="46" stroke="#3b4261" stroke-width="1"/>
 
-  <!-- Info rows -->
   <text font-size="13"><tspan x="240" y="68"  fill="#7aa2f7">Name</tspan><tspan x="308" fill="#c0caf5">Paulius Čepovič</tspan></text>
   <text font-size="13"><tspan x="240" y="88"  fill="#7aa2f7">Role</tspan><tspan x="308" fill="#c0caf5">Senior Software Engineer</tspan></text>
   <text font-size="13"><tspan x="240" y="108" fill="#7aa2f7">At</tspan><tspan x="308" fill="#c0caf5">Gritmind</tspan></text>
@@ -63,7 +51,6 @@
   <text font-size="13"><tspan x="240" y="148" fill="#7aa2f7">Editor</tspan><tspan x="308" fill="#c0caf5">Neovim</tspan></text>
   <text font-size="13"><tspan x="240" y="168" fill="#7aa2f7">Based</tspan><tspan x="308" fill="#c0caf5">Lithuania</tspan></text>
 
-  <!-- Color palette -->
   <rect x="240" y="190" width="18" height="10" rx="2" fill="#414868"/>
   <rect x="262" y="190" width="18" height="10" rx="2" fill="#f7768e"/>
   <rect x="284" y="190" width="18" height="10" rx="2" fill="#9ece6a"/>
