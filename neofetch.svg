@@ -1,80 +1,80 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="550" height="220" viewBox="0 0 550 220">
   <style>
-    text {
-      font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;
-    }
+    text { font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
   </style>
 
-  <!-- Background -->
+  <!-- Outer background -->
   <rect width="550" height="220" rx="10" fill="#1a1b26"/>
 
-  <!-- Terminal Window -->
-  <rect x="24" y="16" width="185" height="190" rx="8" fill="#24283b" stroke="#3b4261" stroke-width="1"/>
+  <!-- Neovim editor box -->
+  <rect x="24" y="16" width="185" height="190" rx="8" fill="#1f2335"/>
 
-  <!-- Title bar dots -->
-  <circle cx="46" cy="35" r="5" fill="#f7768e"/>
-  <circle cx="62" cy="35" r="5" fill="#e0af68"/>
-  <circle cx="78" cy="35" r="5" fill="#9ece6a"/>
+  <!-- Gutter separator -->
+  <line x1="59" y1="16" x2="59" y2="188" stroke="#3b4261" stroke-width="1"/>
 
-  <!-- Title bar separator -->
-  <line x1="24" y1="50" x2="209" y2="50" stroke="#3b4261" stroke-width="1"/>
+  <!-- Statusline separator -->
+  <line x1="24" y1="188" x2="209" y2="188" stroke="#3b4261" stroke-width="1"/>
 
-  <!-- Terminal: $ whoami -->
-  <text x="42" y="78" font-size="13" fill="#7dcfff">$ whoami</text>
+  <!-- Line numbers -->
+  <text font-size="12" fill="#3b4261" text-anchor="end">
+    <tspan x="53" y="38">1</tspan>
+    <tspan x="53" y="58">2</tspan>
+    <tspan x="53" y="78">3</tspan>
+    <tspan x="53" y="98">4</tspan>
+    <tspan x="53" y="118">5</tspan>
+    <tspan x="53" y="138">6</tspan>
+    <tspan x="53" y="158">7</tspan>
+    <tspan x="53" y="178">~</tspan>
+  </text>
 
-  <!-- Terminal: output -->
-  <text x="42" y="98" font-size="13" fill="#c0caf5">paulius</text>
+  <!-- Art content (heart) -->
+  <text font-size="13" fill="#c0caf5">
+    <tspan x="63" y="58">      ╭─╮ ╭─╮</tspan>
+    <tspan x="63" y="78">      │ ╰─╯ │</tspan>
+    <tspan x="63" y="98">      ╰╮   ╭╯</tspan>
+    <tspan x="63" y="118">       ╰╮ ╭╯</tspan>
+    <tspan x="63" y="138">        ╰─╯</tspan>
+  </text>
 
-  <!-- Terminal: prompt -->
-  <text x="42" y="130" font-size="13" fill="#7dcfff">$</text>
+  <!-- Cursor: line 4 (y=98), on the middle space of ╰╮   ╭╯ -->
+  <rect x="125" y="84" width="8" height="15" rx="1" fill="#7aa2f7"/>
 
-  <!-- Blinking cursor -->
-  <rect x="53" y="118" width="8" height="14" rx="1" fill="#7dcfff">
-    <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Statusline text -->
+  <text x="28" y="201" font-size="11" fill="#7aa2f7" font-weight="bold">NORMAL</text>
+  <text x="82" y="201" font-size="11" fill="#565f89">[No Name]</text>
+  <text x="207" y="201" font-size="11" fill="#565f89" text-anchor="end">4:9</text>
 
-  <!-- Info: NaiKiDEV@github -->
+  <!-- Box border (on top) -->
+  <rect x="24" y="16" width="185" height="190" rx="8" fill="none" stroke="#3b4261" stroke-width="1"/>
+
+  <!-- === INFO PANEL === -->
+
+  <!-- NaiKiDEV@github -->
   <text y="36" font-size="14">
     <tspan x="240" fill="#7aa2f7" font-weight="bold">NaiKiDEV</tspan><tspan fill="#565f89">@</tspan><tspan fill="#7aa2f7" font-weight="bold">github</tspan>
   </text>
 
-  <!-- Info separator -->
+  <!-- Separator -->
   <line x1="240" y1="46" x2="370" y2="46" stroke="#3b4261" stroke-width="1"/>
 
-  <!-- Info: Name -->
-  <text y="68" font-size="13">
-    <tspan x="240" fill="#7aa2f7">Name</tspan>
-    <tspan x="310" fill="#c0caf5">Paulius Čepovič</tspan>
+  <!-- Info rows -->
+  <text font-size="13">
+    <tspan x="240" y="68" fill="#7aa2f7">Name</tspan><tspan x="308" fill="#c0caf5">Paulius Čepovič</tspan>
   </text>
-
-  <!-- Info: Role -->
-  <text y="88" font-size="13">
-    <tspan x="240" fill="#7aa2f7">Role</tspan>
-    <tspan x="310" fill="#c0caf5">Senior Software Engineer</tspan>
+  <text font-size="13">
+    <tspan x="240" y="88" fill="#7aa2f7">Role</tspan><tspan x="308" fill="#c0caf5">Senior Software Engineer</tspan>
   </text>
-
-  <!-- Info: At -->
-  <text y="108" font-size="13">
-    <tspan x="240" fill="#7aa2f7">At</tspan>
-    <tspan x="310" fill="#c0caf5">Gritmind</tspan>
+  <text font-size="13">
+    <tspan x="240" y="108" fill="#7aa2f7">At</tspan><tspan x="308" fill="#c0caf5">Gritmind</tspan>
   </text>
-
-  <!-- Info: Lang -->
-  <text y="128" font-size="13">
-    <tspan x="240" fill="#7aa2f7">Lang</tspan>
-    <tspan x="310" fill="#c0caf5">TypeScript, Go, C#, React</tspan>
+  <text font-size="13">
+    <tspan x="240" y="128" fill="#7aa2f7">Lang</tspan><tspan x="308" fill="#c0caf5">TypeScript, Go, C#, React</tspan>
   </text>
-
-  <!-- Info: Editor -->
-  <text y="148" font-size="13">
-    <tspan x="240" fill="#7aa2f7">Editor</tspan>
-    <tspan x="310" fill="#c0caf5">Neovim</tspan>
+  <text font-size="13">
+    <tspan x="240" y="148" fill="#7aa2f7">Editor</tspan><tspan x="308" fill="#c0caf5">Neovim</tspan>
   </text>
-
-  <!-- Info: Based -->
-  <text y="168" font-size="13">
-    <tspan x="240" fill="#7aa2f7">Based</tspan>
-    <tspan x="310" fill="#c0caf5">Lithuania</tspan>
+  <text font-size="13">
+    <tspan x="240" y="168" fill="#7aa2f7">Based</tspan><tspan x="308" fill="#c0caf5">Lithuania</tspan>
   </text>
 
   <!-- Color palette -->
