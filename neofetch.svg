@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="220" viewBox="0 0 550 220">
+  <style>
+    text {
+      font-family: 'Fira Code', 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="550" height="220" rx="10" fill="#1a1b26"/>
+
+  <!-- Terminal Window -->
+  <rect x="24" y="16" width="185" height="190" rx="8" fill="#24283b" stroke="#3b4261" stroke-width="1"/>
+
+  <!-- Title bar dots -->
+  <circle cx="46" cy="35" r="5" fill="#f7768e"/>
+  <circle cx="62" cy="35" r="5" fill="#e0af68"/>
+  <circle cx="78" cy="35" r="5" fill="#9ece6a"/>
+
+  <!-- Title bar separator -->
+  <line x1="24" y1="50" x2="209" y2="50" stroke="#3b4261" stroke-width="1"/>
+
+  <!-- Terminal: $ whoami -->
+  <text x="42" y="78" font-size="13" fill="#7dcfff">$ whoami</text>
+
+  <!-- Terminal: output -->
+  <text x="42" y="98" font-size="13" fill="#c0caf5">paulius</text>
+
+  <!-- Terminal: prompt -->
+  <text x="42" y="130" font-size="13" fill="#7dcfff">$</text>
+
+  <!-- Blinking cursor -->
+  <rect x="53" y="118" width="8" height="14" rx="1" fill="#7dcfff">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Info: NaiKiDEV@github -->
+  <text y="36" font-size="14">
+    <tspan x="240" fill="#7aa2f7" font-weight="bold">NaiKiDEV</tspan><tspan fill="#565f89">@</tspan><tspan fill="#7aa2f7" font-weight="bold">github</tspan>
+  </text>
+
+  <!-- Info separator -->
+  <line x1="240" y1="46" x2="370" y2="46" stroke="#3b4261" stroke-width="1"/>
+
+  <!-- Info: Name -->
+  <text y="68" font-size="13">
+    <tspan x="240" fill="#7aa2f7">Name</tspan>
+    <tspan x="310" fill="#c0caf5">Paulius Čepovič</tspan>
+  </text>
+
+  <!-- Info: Role -->
+  <text y="88" font-size="13">
+    <tspan x="240" fill="#7aa2f7">Role</tspan>
+    <tspan x="310" fill="#c0caf5">Senior Software Engineer</tspan>
+  </text>
+
+  <!-- Info: At -->
+  <text y="108" font-size="13">
+    <tspan x="240" fill="#7aa2f7">At</tspan>
+    <tspan x="310" fill="#c0caf5">Gritmind</tspan>
+  </text>
+
+  <!-- Info: Lang -->
+  <text y="128" font-size="13">
+    <tspan x="240" fill="#7aa2f7">Lang</tspan>
+    <tspan x="310" fill="#c0caf5">TypeScript, Go, C#, React</tspan>
+  </text>
+
+  <!-- Info: Editor -->
+  <text y="148" font-size="13">
+    <tspan x="240" fill="#7aa2f7">Editor</tspan>
+    <tspan x="310" fill="#c0caf5">Neovim</tspan>
+  </text>
+
+  <!-- Info: Based -->
+  <text y="168" font-size="13">
+    <tspan x="240" fill="#7aa2f7">Based</tspan>
+    <tspan x="310" fill="#c0caf5">Lithuania</tspan>
+  </text>
+
+  <!-- Color palette -->
+  <rect x="240" y="190" width="18" height="10" rx="2" fill="#414868"/>
+  <rect x="262" y="190" width="18" height="10" rx="2" fill="#f7768e"/>
+  <rect x="284" y="190" width="18" height="10" rx="2" fill="#9ece6a"/>
+  <rect x="306" y="190" width="18" height="10" rx="2" fill="#e0af68"/>
+  <rect x="328" y="190" width="18" height="10" rx="2" fill="#7aa2f7"/>
+  <rect x="350" y="190" width="18" height="10" rx="2" fill="#bb9af7"/>
+  <rect x="372" y="190" width="18" height="10" rx="2" fill="#7dcfff"/>
+  <rect x="394" y="190" width="18" height="10" rx="2" fill="#c0caf5"/>
+</svg>
